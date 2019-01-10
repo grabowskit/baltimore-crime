@@ -1,0 +1,16 @@
+{
+  "description": "Ingest pipeline created by file structure finder",
+  "processors": [{
+      "append": {
+        "field": "location_geo",
+        "value": "{{Latitude}},{{Longitude}}"
+      }
+    },
+    {
+      "append": {
+        "field": "@timestamp",
+        "value": "{{CrimeDate}} {{CrimeTime}}"
+      }
+    }
+  ]
+}
