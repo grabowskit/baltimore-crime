@@ -1,0 +1,54 @@
+{
+  "CrimeCode": {
+    "type": "keyword"
+  },
+  "CrimeDate": {
+    "type": "keyword"
+  },
+  "CrimeTime": {
+    "type": "keyword"
+  },
+  "Description": {
+    "type": "keyword"
+  },
+  "District": {
+    "type": "keyword"
+  },
+  "Inside/Outside": {
+    "type": "keyword"
+  },
+  "Latitude": {
+    "type": "double"
+  },
+  "Location": {
+    "type": "keyword"
+  },
+  "Location 1": {
+    "type": "keyword"
+  },
+  "Longitude": {
+    "type": "double"
+  },
+  "Neighborhood": {
+    "type": "keyword"
+  },
+  "Post": {
+    "type": "long"
+  },
+  "Premise": {
+    "type": "keyword"
+  },
+  "Total Incidents": {
+    "type": "long"
+  },
+  "Weapon": {
+    "type": "keyword"
+  },
+  "location_geo": {
+    "type": "geo_point"
+  },
+  "@timestamp": {
+    "type": "date",
+    "format": "MM/dd/yyyy HH:mm:ss"
+  }
+}
